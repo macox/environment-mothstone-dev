@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:mothstone/adminUser:password
+  username: admin
+dashboardAuthID: vault:mothstone:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:mothstone:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:mothstone/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:mothstone/prow:hmacToken
