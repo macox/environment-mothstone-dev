@@ -12,6 +12,8 @@ cluster:
   gitName: github
   gitPublic: true
   gitServer: https://github.com
+  gke:
+    projectNumber: "963573086415"
   kanikoSAName: mothstone-ko
   namespace: jx
   project: aps-mothstone
@@ -62,6 +64,7 @@ ingress:
     enabled: true
     production: true
 kaniko: true
+repository: nexus
 secretStorage: vault
 storage:
   backup:
